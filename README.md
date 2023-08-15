@@ -1,1 +1,1 @@
-# LabsPrograming_C
+Programming in C and Python
