@@ -1,1 +1,0 @@
-# LabsPrograming_C
