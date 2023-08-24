@@ -1,16 +1,17 @@
-def is_prime(num):
-    if num <= 1:
-        return False
-    if num <= 3:
-        return True
-    if num % 2 == 0 or num % 3 == 0:
-        return False
-    i = 5
-    while i * i <= num:
-        if num % i == 0 or num % (i + 2) == 0:
-            return False
-        i += 6
-    return True
+def first_n_primes(n):
+  #since 0 and 1 is not prime return false.
+  if(n==1 or n==0):
+    return False
+   
+  #Run a loop from 2 to n-1
+  for i in range(2,n):
+    #if the number is divisible by i, then n is not a prime number.
+    if(n%i==0):
+      return False
+   
+  #otherwise, n is prime number.
+  return True
+ 
 
 def first_n_primes(n):
     primes = []
