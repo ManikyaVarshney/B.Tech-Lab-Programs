@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE books [
+  <!ELEMENT books (book+)>
+  <!ELEMENT book (title, author, year)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+]>
+<books>
+  <book>
+    <title>Learning XML</title>
+    <author>John Doe</author>
+    <year>2021</year>
+  </book>
+  <book>
+    <title>XML Simplified</title>
+    <author>Jane Smith</author>
+    <year>2020</year>
+  </book>
+</books>
